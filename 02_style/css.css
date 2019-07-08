@@ -16,6 +16,16 @@ body {
 }
 
 /* website-map */
+
+.website_map_place{
+    float: right;
+    margin: 30px 12px 0 0;
+    display: none;
+}
+.website_map_place a{
+    text-decoration: none;
+    color: rgb(18, 117, 101);
+}
 #content_page .content_box#page_website-map{
     margin: 100px 25px 50px;
     font-size: 14px;
@@ -61,6 +71,9 @@ body {
 
 #navbar {
     padding: 25px 10px 0 10px;
+}
+.navbar-light .navbar-toggler-icon{
+    background-image: url(/01_img/00_menu/menu.png);
 }
 
 #navbar .navbar-nav-right {
@@ -325,6 +338,9 @@ body {
 .home_link-icon-color_07 {
     background-color: #9128E5;
 }
+.home_link-icon-color_08{
+    background-color: rgb(226, 27, 150);
+}
 
 #content_home #home_link .home_content .container .row_768 .home_link-icon .home_link-icon-name {
     padding: 4px 0;
@@ -473,6 +489,9 @@ ul.pagination{
 /* news_recruitment */
 /* news_event */
 /* news_public */
+.checkdownload a{
+    color: rgb(18, 117, 101);
+}
 /* news_education */
 /* news_propaganda */
 #content_page .content_box .page_right .right_content .text_box.p_record h4{
@@ -678,6 +697,9 @@ font-weight: bold;
 
     #nav-link_server .dropdown-menu {
         top: 58px;
+    }
+    .website_map_place{
+        display: block;
     }
 
     #banner {
